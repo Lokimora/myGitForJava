@@ -2,7 +2,6 @@ package Online;
 import Graphics.*;
 import java.net.*;
 import java.io.*;
-import Online.Serial;
 
 import java.net.Socket;
 
@@ -18,10 +17,13 @@ public class Client {
             InputStream is = clientSocket.getInputStream();
             OutputStream os = clientSocket.getOutputStream();
 
+            ObjectInputStream ois = new ObjectInputStream(clientSocket.getInputStream());
+
             DataInputStream input = new DataInputStream(is);
             DataOutputStream output = new DataOutputStream(os);
+
             char[][] fields = new char[3][3];
-            ObjectInputStream ois = new ObjectInputStream(clientSocket.getInputStream());
+
             String fuser = null;
             while(true) {
                 System.out.println("Your turn to play");
@@ -29,11 +31,10 @@ public class Client {
                     fuser = buff.readLine();
                     output.writeUTF(fuser);
                 }
-                for(int j = 0; j < 2; j++) {
-                    Serial object = (Serial) ois.readObject();
-                    fields = object.getMassive();
-                    Views.seen(fields);
-                }
+                    for(int i = 0; i < 2; i++){
+                        fields = (char[][])ois.readObject();
+                        Views.seen(fields);
+                    }
 
             }
 
