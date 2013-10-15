@@ -37,7 +37,7 @@ public class Server {
     }
     public static void reMassive(char[][] Massive, ObjectOutputStream oos ){
         try {
-            oos.writeObject(Massive);
+            oos.writeObject(Massive);//отсылаю массив
 
         } catch (Exception e) {
             e.printStackTrace();
