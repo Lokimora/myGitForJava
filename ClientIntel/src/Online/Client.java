@@ -22,16 +22,16 @@ public class Client {
             DataInputStream input = new DataInputStream(is);
             DataOutputStream output = new DataOutputStream(os);
 
-            char[][] fields = new char[3][3];
+            char[][] fields = new char[3][3];//поле крестиков ноликом
 
             String fuser = null;
             while(true) {
                 System.out.println("Your turn to play");
-                for(int i = 0; i < 2; i++) {
+                for(int i = 0; i < 2; i++) {//отсылаем координаты хода
                     fuser = buff.readLine();
                     output.writeUTF(fuser);
                 }
-                    for(int i = 0; i < 2; i++){
+                    for(int i = 0; i < 2; i++){//принимаем массив поля
                         fields = (char[][])ois.readObject();
                         Views.seen(fields);
                     }
