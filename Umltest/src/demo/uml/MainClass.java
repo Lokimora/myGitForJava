@@ -35,9 +35,9 @@ public class MainClass{
                 break;
             if(RANDOM % 2 != 0){
                 System.out.println("Ходит первый игрок");
-                if(Server.ServerFunc(myFields,input)){
-                    Server.reMassive(myFields, oos);
-                    Views.seen(myFields);
+                if(Server.ServerFunc(myFields,input)){ //проверяю корректность вводимых данных
+                    Server.reMassive(myFields, oos); // Передаю массив клиенту
+                    Views.seen(myFields); //просто вывожу поле в консоль
                 } else{
                     while(true){
                        if(Server.ServerFunc(myFields,input)){
@@ -49,9 +49,9 @@ public class MainClass{
                 }
             } else {
                 System.out.println("Ходит второй игрок");
-                myFields = CheckingForAvailable(myFields, NOLIK);
+                myFields = CheckingForAvailable(myFields, NOLIK); //ввод данных и проверка на коректность
                 Views.seen(myFields);
-                Server.reMassive(myFields, oos);
+                Server.reMassive(myFields, oos); //передаю массив клиенту
             }
             if(CheckingForWinner.checkWinner(myFields)) {
                 break;
