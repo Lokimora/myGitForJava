@@ -31,7 +31,7 @@ public class Client {
             outputStream = clientSocket.getOutputStream();
             DataOutputStream dataOutputStream = new DataOutputStream(outputStream);
 
-            System.out.println("Ваша очередь ходить");
+            System.out.println("U Turn to play");
 
             while(true)
             {
@@ -49,6 +49,7 @@ public class Client {
                 if(Checking.checkIndex(height, wider) && Checking.checkForEmpty(myFields.getFields(), height, wider)){
                     break;
                 } else {
+
                     while(true)
                     {
                         try{

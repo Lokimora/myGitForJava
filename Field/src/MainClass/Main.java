@@ -1,9 +1,10 @@
 package MainClass;
 
-import Online.Server;
-import Handle.Field;
-import Input.Data;
-import Handle.Checking;
+import java.io.*;
+
+import Enemy.Bot;
+import Enemy.NetworkBattle;
+
 
 import java.io.ObjectOutputStream;
 
@@ -11,32 +12,21 @@ public class Main {
 
     public static int whoIsTurn = 2;
 
-    public static void main(String args[]){
-        Field myFields = new Field();
-        Server myServer = new Server();
-        Data myData = new Data();
-        while(true){
-            if(whoIsTurn % 2 == 0){
-                System.out.println("Ваш ход");
-                myData.dataInput();
-                myFields.viewField();
-                Server.requestToClient(myFields.getFields());
+    public static void main(String args[])throws  IOException{
 
-            } else {
-                System.out.println("Ходит второй игрок");
-                Server.requestFromClient();
-                int height = Server.getHeight();
-                int wider = Server.getWider();
-                Field.turnFromClient(height, wider);
-                myFields.viewField();
+        System.out.println("Welcome to the tic-tac-toe. If u wanna play with player on Network - enter 0, if u wanna play with computer -  enter 1");
+        BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
+        int choice = Integer.parseInt(bufferedReader.readLine());
 
-            }
-            if(Checking.checkWinner(myFields.getFields())){
-                System.out.println("Игра закончилась");
-                Server.closeTheServerSocket();
+        switch (choice){
+            case 0:
+                NetworkBattle.gameBetweenHumans();
                 break;
-            }
-            whoIsTurn++;
+            case 1:
+                Bot.turnFromBot();
+                break;
         }
+
+
     }
 }

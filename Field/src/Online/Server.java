@@ -5,6 +5,7 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import Handle.Checking;
+import Input.Data;
 
 public class Server {
     private static ObjectOutputStream objectOutputStream;
@@ -14,14 +15,15 @@ public class Server {
     private static OutputStream outputStream;
     private static int height = 0;
     private static int wider = 0;
+    public static int whoIsTurn = 2;
 
 
     public Server(){
         try {
             serverSocket = new ServerSocket(4444);
-            System.out.println("Ожидание подключения клиента...");
+            System.out.println("Waiting for response from client...");
             acceptableSocket = serverSocket.accept();
-            System.out.println("Подключение удалось.");
+            System.out.println("Connected.");
             objectOutputStream = new ObjectOutputStream(acceptableSocket.getOutputStream());
         } catch (IOException e) {
             e.printStackTrace();
@@ -60,9 +62,11 @@ public class Server {
         try {
             acceptableSocket.close();
         } catch (IOException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
     }
+
+
 
 
 

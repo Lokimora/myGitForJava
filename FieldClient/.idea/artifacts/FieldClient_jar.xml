@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="FieldClient:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/FieldClient_jar</output-path>
+    <root id="archive" name="FieldClient.jar">
+      <element id="module-output" name="FieldClient" />
+    </root>
+  </artifact>
+</component>

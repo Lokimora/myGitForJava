@@ -1,24 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Field:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="5b866b55-b308-43ec-a79b-14af3bd8f00a" name="Default" comment="" />
     <ignored path="Field.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Field.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382027815443" ignored="false" />
-    <file path="/Server.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382118533199" ignored="false" />
-    <file path="/Main.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382118550231" ignored="false" />
+    <file path="/Field.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382224826302" ignored="false" />
+    <file path="/Server.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382225092859" ignored="false" />
+    <file path="/Main.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382266460145" ignored="false" />
     <file path="/fragment.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382014759118" ignored="false" />
-    <file path="/Data.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382192209413" ignored="false" />
+    <file path="/Data.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382222646318" ignored="false" />
     <file path="B:/ClientIntel/src/Online/Client.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382009713371" ignored="false" />
-    <file path="/Client.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382191704957" ignored="false" />
-    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382017106320" ignored="false" />
+    <file path="/Client.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382222712340" ignored="false" />
+    <file path="$PROJECT_DIR$/.idea/workspace.xml" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382225226351" ignored="false" />
     <file path="B:/FieldClient/src/Online/Client.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382191747336" ignored="false" />
     <file path="B:/FieldClient/src/Main/MainClass.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382131707300" ignored="false" />
     <file path="B:/FieldClient/src/Handle/Field.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382028536253" ignored="false" />
     <file path="/MainClass.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382119183484" ignored="false" />
     <file path="/Dummy.txt" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382014702717" ignored="false" />
-    <file path="/Checking.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382028810308" ignored="false" />
+    <file path="/Checking.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382222881966" ignored="false" />
     <file path="B:/FieldClient/src/Handle/Checking.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382031785690" ignored="false" />
+    <file path="$PROJECT_DIR$/../FieldClient/src/Online/Client.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382222923456" ignored="false" />
+    <file path="$PROJECT_DIR$/../FieldClient/src/Handle/Checking.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382222923456" ignored="false" />
+    <file path="/Bot.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382266629793" ignored="false" />
+    <file path="/NetworkBattle.java" changelist="5b866b55-b308-43ec-a79b-14af3bd8f00a" time="1382225564215" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,10 +88,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Checking.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="Checking.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Handle/Checking.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="5" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.0">
+            <state line="19" column="47" selection-start="741" selection-end="741" vertical-scroll-proportion="0.3303685">
               <folding />
             </state>
           </provider>
@@ -91,7 +100,16 @@
       <file leaf-file-name="Server.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Online/Server.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="51" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0">
+            <state line="29" column="42" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkBattle.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Enemy/NetworkBattle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="48" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -100,16 +118,16 @@
       <file leaf-file-name="Field.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Handle/Field.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="89" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
+            <state line="33" column="35" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Data.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Data.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Input/Data.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="16" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.54245883">
+            <state line="49" column="93" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -118,7 +136,16 @@
       <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/MainClass/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="37" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
+            <state line="16" column="142" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Bot.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Enemy/Bot.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="53" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -140,10 +167,12 @@
         <option value="$PROJECT_DIR$/src/Handle/Main.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/src/Handle/Field.java" />
-        <option value="$PROJECT_DIR$/src/Handle/Checking.java" />
-        <option value="$PROJECT_DIR$/src/Online/Server.java" />
         <option value="$PROJECT_DIR$/src/MainClass/Main.java" />
+        <option value="$PROJECT_DIR$/src/Enemy/Bot.java" />
         <option value="$PROJECT_DIR$/src/Input/Data.java" />
+        <option value="$PROJECT_DIR$/src/Enemy/NetworkBattle.java" />
+        <option value="$PROJECT_DIR$/src/Online/Server.java" />
+        <option value="$PROJECT_DIR$/src/Handle/Checking.java" />
       </list>
     </option>
   </component>
@@ -178,6 +207,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -268,24 +299,50 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Field" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Field" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Enemy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="false" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="recentsLimit" value="5" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="recentsLimit" value="5" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="false" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../FieldClient" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="GenerateAntBuildDialog.outputFileNameProperty" value="field" />
+    <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="dynamic.classpath" value="false" />
-    <property name="MemberChooser.copyJavadoc" value="false" />
   </component>
   <component name="RunManager" selected="Application.Main">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -300,19 +357,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -340,6 +384,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -407,6 +464,23 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false" SSL_PROTOCOLS="all">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5b866b55-b308-43ec-a79b-14af3bd8f00a" name="Default" comment="" />
@@ -436,7 +510,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1289" height="984" extended-state="1" />
+    <frame x="-8" y="0" width="1289" height="984" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -448,16 +522,16 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32971016" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24959481" sideWeight="0.6009501" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25101873" sideWeight="0.6731235" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32687652" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25101873" sideWeight="0.7033898" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29661018" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -527,20 +601,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/MainClass/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="762" selection-end="762" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Online/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="68" selection-start="354" selection-end="354" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Handle/Field.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="27" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0">
@@ -600,41 +660,144 @@
         <state line="12" column="19" selection-start="425" selection-end="425" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Handle/Checking.java">
+    <entry file="file://$PROJECT_DIR$/src/Enemy/Bot.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="5" selection-start="2193" selection-end="2193" vertical-scroll-proportion="0.0">
+        <state line="43" column="53" selection-start="1390" selection-end="1390" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/MainClass/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="37" selection-start="1109" selection-end="1109" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Online/Server.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="51" selection-start="1859" selection-end="1859" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Handle/Field.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="89" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
+        <state line="16" column="142" selection-start="388" selection-end="388" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Input/Data.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="16" selection-start="1349" selection-end="1349" vertical-scroll-proportion="0.54245883">
+        <state line="49" column="93" selection-start="1827" selection-end="1827" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handle/Field.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="35" selection-start="960" selection-end="960" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Enemy/NetworkBattle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="48" selection-start="1020" selection-end="1020" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Online/Server.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="42" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Handle/Checking.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="47" selection-start="741" selection-end="741" vertical-scroll-proportion="0.3303685">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Field:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>Field</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
 

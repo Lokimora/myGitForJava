@@ -30,6 +30,7 @@ public class Data {
                 } else {
                     while(true)
                     {
+                        System.out.println("Illegal arguments. Please enter your coordinates again");
                         try{
                             height  = Integer.parseInt(inputBuff.readLine());
                             wider   = Integer.parseInt(inputBuff.readLine());

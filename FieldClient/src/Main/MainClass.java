@@ -20,11 +20,15 @@ public class MainClass {
             boolean a = true;
             while(a){
             Client.requestFromServer(myStream);
+                if(Checking.checkWinner(myField.getFields())) {
+                    a = false;
+                    break;
+                }
             myField.viewField();
             Client.requestToServer();
-            if(Checking.checkWinner(myField.getFields()))
-                {
+                if(Checking.checkWinner(myField.getFields())) {
                     a = false;
+                    break;
                 }
 
         }

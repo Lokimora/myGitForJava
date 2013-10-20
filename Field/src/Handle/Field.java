@@ -30,4 +30,7 @@ public class Field {
     public static void turnFromClient(int height, int wider){
         field[height][wider] = TOE;
     }
+    public static void turnFromBot(int height, int wider){
+        field[height][wider] = TOE;
+    }
 }
